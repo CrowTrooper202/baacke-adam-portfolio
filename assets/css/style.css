@@ -12,9 +12,11 @@ li {
     background-size: cover;
     background-position: center;
 }
-/* article {
+article {
     display: flex;
-} */
+    flex-direction: column;
+    position: relative;
+}
 .section-header {
     position: relative;
     justify-content: right;
@@ -22,8 +24,6 @@ li {
 }
 .container {
     position: relative;
-    text-align: center;
-    color: black;
 }
 
 .bottom-left {

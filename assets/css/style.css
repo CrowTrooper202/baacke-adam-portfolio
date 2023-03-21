@@ -1,31 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 li {
     list-style: none;
     display: inline-block;
 }
 
+
 .hero {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("huzaifa-ginwala-TkdUF57nioQ-unsplash.jpg");
-    background-color: aqua;
+    background-image: url("../images/huzaifa-ginwala-TkdUF57nioQ-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
-article {
+
+main{
     display: flex;
     flex-direction: column;
-    position: relative;
 }
-.section-header {
-    position: relative;
-    justify-content: right;
-    
-}
-.container {
+
+article {
+    display: flex;
     position: relative;
 }
 
+.section-header {
+    flex-basis: 20%;
+    margin-right: 1%;
+    border-right: 3px;
+    border-color: black;    
+}
+
+.stuff {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#horiseon {
+    flex-basis: 100%;
+}
+
+.container {
+    position: relative;
+    flex-basis: 50%;
+}
+.container img {
+    width: 100%;
+}
 .bottom-left {
     position: absolute;
     background-color: aqua;
@@ -44,8 +70,7 @@ article {
     flex-wrap: grid;
 }
 
-
 img {
     margin: 10px auto;
-    max-width: 300px;
+    /* max-width: 300px; */
 }

@@ -1,0 +1,15 @@
+.header
+
+.section-header
+
+.seaction
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("huzaifa-ginwala-TkdUF57nioQ-unsplash.jpg");
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+}

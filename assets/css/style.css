@@ -1,4 +1,7 @@
-.header
+li {
+    list-style: none;
+    display: inline-block;
+}
 
 .section-header
 
@@ -12,4 +15,9 @@
     background-color: aqua;
     background-size: cover;
     background-position: center;
+}
+
+img {
+    margin: 10px auto;
+    max-width: 300px;
 }

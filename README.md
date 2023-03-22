@@ -3,10 +3,10 @@
 ## Description
 
 
-- the the Progect lead requested another pass at the code for our client 'Horiseon'. while the code did run it was verbose and antiquated and I wanted to stream line the code.
-- first I converted the the dev layout to semantic and undated the nessary selectors with the new elements. I then noticed repeating and out of order code. I then condenced and rearanged code for a more logical approach.
-- I also noticed that the clients name waw left out of the title, and that the images didn't have alternative descriptions.
-- through this iI learned how to quickly identify css selectors and their corisponding element even when generic dev elements are the primary element.
+- I wanted to test my limits of my html and css coding. at the same time i wanted to have a live document that would show my progress as a programer.
+- I  started with a simple wrieframe drawing to organize my thoughts. I then sectioned off the nessary elements to at least get the page some what presentable. 
+- through this I learned i gained more experance in useing flex on a page and my current limits of knowldge of how to properly utilize it. i also learned how to better fomate pictures and inline links into them.
+- my goal is to revisit this later to polish and properly fulfil the requirments.
 
 ## Table of Contents 
 
@@ -18,14 +18,14 @@
 ## Installation
 
 
-[horiseon splash page](https://crowtrooper202.github.io/horiseon-accessibility-recode/)
+[Baacke Portfolio](https://crowtrooper202.github.io/baacke-adam-portfolio/)
 
 
 ## Usage
 
 the page uses links at the top pf the page for easy navigation.
 
-![Horiseon screenshot](./assets/images/horiseon_screenshot.PNG)
+![Horiseon screenshot](./assets/images/portfolio-screenshot.PNG)
 
 
 

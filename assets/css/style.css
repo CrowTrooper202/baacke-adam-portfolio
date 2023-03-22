@@ -3,6 +3,10 @@ header {
     justify-content: space-between;
 }
 
+nav {
+    display: flex;
+}
+
 li {
     list-style: none;
     display: inline-block;
@@ -21,6 +25,7 @@ li {
 main{
     display: flex;
     flex-direction: column;
+
 }
 
 article {
@@ -66,11 +71,39 @@ article {
     transform: translate(-50%, -50%);
     width: 70%;
 }
-.seaction {
-    flex-wrap: grid;
-}
 
 img {
-    margin: 10px auto;
-    /* max-width: 300px; */
+    margin:0 auto;
+    /* max-height: 500px; */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactinfo {
+    margin: 0 10%;
+}
+
+@media screen and (max-width: 768px){
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .section-header {
+        flex-basis: 100%;
+        flex-wrap: wrap
+    }
+    .stuff {
+        flex-basis: 100%;
+        flex-wrap: wrap
+    }
+    .container {
+        flex-basis: 100%; 
+        flex-wrap: wrap
+    }
+    footer {
+        flex-direction: column;
+    }
 }
